@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    body{
+    background-image: url(RockPaperSci.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    h1{
+    background-color: #081b31;
+    color: white;
+height: 5rem;
+text-align: center;
+line-height: 5rem;
+}
+.choice{
+height: 165px;
+width: 165px;
+border-radius: 50%;
+display: flex;
+justify-content:center ;
+align-items: center;
+}
+img{
+height: 150px;
+width: 150px;
+object-fit: cover;
+border-radius: 50%;
+}
+/* img:hover{
+border: 3px solid black;
+} */
+.choice:hover{
+cursor: pointer;
+background-color: #081b31;
+}
+.choices{
+display: flex;
+align-items: center;
+justify-content: center;
+/* justify-content: space-evenly; */
+align-items: center;
+margin-top: 5rem;
+gap: 4rem;
+}
+.score-board{
+text-align: center;
+margin-top: 3rem;
+font-size: 2rem;
+display: flex;
+justify-content: center;
+gap: 10rem;
+color: white;
+}
+.score i{
+box-shadow: 0 0 1rem lime;
+border-radius: 1rem;
+}
+.score p{
+    box-shadow: 0 0 1rem #EBF400;
+border-radius: 1rem;
+}
+#user-score,#comp-score{
+font-size: 4rem;
+}
+.msg-container{
+text-align: center;
+margin-top: 3.5rem;
+justify-content: center;
+justify-content: space-evenly;
+}
+#msg{
+background-color: #081b31;
+color: white;
+font-size: 2rem;
+margin-top: 5rem;
+display: inline;
+padding: 1rem;
+border-radius: 1rem;
+}
