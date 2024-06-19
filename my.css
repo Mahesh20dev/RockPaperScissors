@@ -153,9 +153,13 @@ img {
         color: white;
         font-size: 16px;
         margin-top: 1rem;
+        margin-bottom: 1rem;
         display: inline;
         /* padding: 1rem; */
         border-radius: 1rem;
+    }
+    #user-score, #comp-score {
+        font-size: 2rem;
     }
     
 }
@@ -185,8 +189,12 @@ img {
         color: white;
         font-size: 16px;
         margin-top: 1rem;
+        margin-bottom: 1rem;
         display: inline;
         /* padding: 1rem; */
         border-radius: 1rem;
+    }
+    #user-score, #comp-score {
+        font-size: 2rem;
     }
 }
