@@ -113,4 +113,10 @@ img {
     .score-board .score {
         margin-bottom: 1rem;
     }
+    body{
+        background-image: url(ethan-smith-w2neeDixhbs-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
 }
