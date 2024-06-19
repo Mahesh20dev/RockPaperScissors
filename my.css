@@ -103,6 +103,7 @@ img {
 @media screen and (max-width: 768px) {
     .choices {
         flex-direction: column;
+        gap: 10px;
     }
 
     .score-board {
@@ -133,16 +134,15 @@ img {
 @media screen and (max-width: 443px) {
     .choices {
         flex-direction: column;
+        gap: 10px;
     }
 
     .score-board {
         flex-direction: column;
-        gap: 2rem;
+        gap: 1rem;
     }
 
-    .score-board .score {
-        margin-bottom: 1rem;
-    }
+    
     body{
         background-image: url(ethan-smith-w2neeDixhbs-unsplash.jpg);
         background-repeat: no-repeat;
@@ -167,11 +167,12 @@ img {
 @media screen and (max-width: 412px) {
     .choices {
         flex-direction: column;
+        gap: 10px;
     }
 
     .score-board {
         flex-direction: column;
-        gap: 2rem;
+        gap: 1rem;
     }
 
     .score-board .score {
