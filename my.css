@@ -8,7 +8,7 @@
 
 /* Body styles */
 body {
-    background-image: url(RockPaperSci.jpg);
+    background-image: url(ethan-smith-w2neeDixhbs-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -117,6 +117,38 @@ img {
         background-image: url(ethan-smith-w2neeDixhbs-unsplash.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    .msg-container {
+        text-align: center;
+        margin-top: 1.5rem;
+        justify-content: space-evenly;
+    }
+    
+}
+
+@media screen and (max-width: 490px) {
+    .choices {
+        flex-direction: column;
+    }
+
+    .score-board {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .score-board .score {
+        margin-bottom: 1rem;
+    }
+    body{
+        background-image: url(ethan-smith-w2neeDixhbs-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .msg-container {
+        text-align: center;
+        margin-top: 1.5rem;
+        font-size: 13px;
+        /* justify-content: center; */
     }
     
 }
