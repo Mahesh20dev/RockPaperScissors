@@ -126,7 +126,7 @@ img {
     
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 443px) {
     .choices {
         flex-direction: column;
     }
