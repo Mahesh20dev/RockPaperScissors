@@ -152,3 +152,31 @@ img {
     }
     
 }
+
+@media screen and (max-width: 412px) {
+    .choices {
+        flex-direction: column;
+    }
+
+    .score-board {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .score-board .score {
+        margin-bottom: 1rem;
+    }
+
+    body {
+        background-image: url(ethan-smith-w2neeDixhbs-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .msg-container {
+        text-align: center;
+        margin-top: 1.5rem;
+        font-size: 13px;
+        /* justify-content: center; */
+    }
+}
