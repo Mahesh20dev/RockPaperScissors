@@ -1,81 +1,116 @@
-*{
+/* CSS Styles for Rock-Paper-Scissors game */
+
+/* Global styles */
+* {
     margin: 0px;
     padding: 0px;
-    }
-    body{
+}
+
+/* Body styles */
+body {
     background-image: url(RockPaperSci.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    }
-    h1{
+}
+
+/* Heading styles */
+h1 {
     background-color: #081b31;
     color: white;
-height: 5rem;
-text-align: center;
-line-height: 5rem;
+    height: 5rem;
+    text-align: center;
+    line-height: 5rem;
 }
-.choice{
-height: 165px;
-width: 165px;
-border-radius: 50%;
-display: flex;
-justify-content:center ;
-align-items: center;
+
+/* Choice styles */
+.choice {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-img{
-height: 150px;
-width: 150px;
-object-fit: cover;
-border-radius: 50%;
+
+/* Image styles */
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
 }
-/* img:hover{
-border: 3px solid black;
-} */
-.choice:hover{
-cursor: pointer;
-background-color: #081b31;
+
+/* Choice hover styles */
+.choice:hover {
+    cursor: pointer;
+    background-color: #081b31;
 }
-.choices{
-display: flex;
-align-items: center;
-justify-content: center;
-/* justify-content: space-evenly; */
-align-items: center;
-margin-top: 5rem;
-gap: 4rem;
+
+/* Choices container styles */
+.choices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 4rem;
 }
-.score-board{
-text-align: center;
-margin-top: 3rem;
-font-size: 2rem;
-display: flex;
-justify-content: center;
-gap: 10rem;
-color: white;
+
+/* Score board styles */
+.score-board {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    color: white;
 }
-.score i{
-box-shadow: 0 0 1rem lime;
-border-radius: 1rem;
+
+/* Score styles */
+.score i, .score p {
+    box-shadow: 0 0 1rem lime;
+    border-radius: 1rem;
 }
-.score p{
+
+.score p {
     box-shadow: 0 0 1rem #EBF400;
-border-radius: 1rem;
 }
-#user-score,#comp-score{
-font-size: 4rem;
+
+/* Score id styles */
+#user-score, #comp-score {
+    font-size: 4rem;
 }
-.msg-container{
-text-align: center;
-margin-top: 3.5rem;
-justify-content: center;
-justify-content: space-evenly;
+
+/* Message container styles */
+.msg-container {
+    text-align: center;
+    margin-top: 3.5rem;
+    justify-content: space-evenly;
 }
-#msg{
-background-color: #081b31;
-color: white;
-font-size: 2rem;
-margin-top: 5rem;
-display: inline;
-padding: 1rem;
-border-radius: 1rem;
+
+/* Message id styles */
+#msg {
+    background-color: #081b31;
+    color: white;
+    font-size: 2rem;
+    margin-top: 5rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .choices {
+        flex-direction: column;
+    }
+
+    .score-board {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .score-board .score {
+        margin-bottom: 1rem;
+    }
 }
